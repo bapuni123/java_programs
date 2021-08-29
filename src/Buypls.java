@@ -1,7 +1,6 @@
 import java.lang.*;
 import java.io.*;
-import java.util.*;
-/* Name of the class has to be "Main" only if the class is public. */
+
 class Buypls
 {
     public static void main (String[] args) throws java.lang.Exception
@@ -9,7 +8,7 @@ class Buypls
         // your code goes here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String[] input = new String[4];
+        String[] input ;
 
         int a ;
         int b;
